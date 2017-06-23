@@ -1,17 +1,52 @@
 <div className="container">
+    <nav className="navbar navbar-default">
+        <div className="navbar-header">
+            <a className="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul className="nav navbar-nav">
+            <li className="active"><a href="#">Home</a></li>
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+        </ul>
+    </nav>
     <div className="row">
         <div className="jumbotron">
-            <h2>All my children: A Tale of Reactive Components</h2>
+            <h1 className="text-center"><strong><i className="fa fa-newspaper-o"></i>New York Times Article Scrubber</strong></h1>
+            <h3 className="text-center">Search for and annotate articles of interest</h3>
         </div>
-        <div className="col-md-12">
-            <div className="panel panel-default">
-                <div className="panel-heading">
-                    <h3 className="panel-title text-center">Parent</h3>
-                </div>
-                <div className="panel-body text-center">
-                    <h1>{clicks}</h1>
-                </div>
+        <div className="panel panel-default">
+            <div className="panel-heading">
+                <h3 className="panel-title"><strong><i className="fa  fa-list-alt"></i>   Search Parameters</strong></h3>
             </div>
+            <div className="panel-body text-center">
+                <form>
+                    <div className="form-group">
+                        <input type="text" className="form-control" id="search-term" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div className="row">
+    <div className="jumbotron">
+        <h1 className="text-center"><strong><i className="fa fa-newspaper-o"></i>New York Times Article Scrubber</strong></h1>
+        <h3 className="text-center">Search for and annotate articles of interest</h3>
+    </div>
+    <div className="panel panel-default">
+        <div className="panel-heading">
+            <h3 className="panel-title"><strong><i className="fa  fa-list-alt"></i>   Search Parameters</strong></h3>
+        </div>
+        <div className="panel-body text-center">
+            <form>
+                <div className="form-group">
+                    <input type="text" className="form-control" id="search-term" />
+                </div>
+            </form>
         </div>
     </div>
 </div>

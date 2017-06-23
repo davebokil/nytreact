@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Parent from './components/Parent';
+import Nav from './components/Nav';
 
 // This code here allows us to render our main component (in this case Parent)
-ReactDOM.render(<Parent />, document.getElementById("app"));
+ReactDOM.render(<Nav />, document.getElementById("app"));
