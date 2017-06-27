@@ -8,7 +8,12 @@
 	color: white;
 }
 
-
-a {
+.panel-heading {
+	background-color: #20315A;
 	color: white;
+
+}
+
+.panel {
+border-color: #20315A;
 }
