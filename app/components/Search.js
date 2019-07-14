@@ -6,7 +6,6 @@ import Saved from"./Saved";
 import Results from"./Results";
 
 // Helper for making AJAX requests to the API
-import helpers from "./utils/helpers";
 
 // Create the Child Component
 class Search extends React.Component {
@@ -24,15 +23,15 @@ class Search extends React.Component {
 					          <form role="form">
 					              <div className="form-group">
 					                  <label for="search">Search Term:</label>
-					                  <input type="text" value={this.state.value} className="form-control" id="search-term"/>
+					                  <input type="text" value="test" className="form-control" id="search-term"/>
 					              </div>
 					              <div className="form-group">
 					                  <label for="start-year">Start Year (Optional):</label>
-					                  <input type="text" className="form-control" value={this.state.value} id="start-year"/>
+					                  <input type="text" className="form-control" value="test" id="start-year"/>
 					              </div>
 					              <div className="form-group">
 					                  <label for="end-year">End Year (Optional):</label>
-					                  <input type="text" className="form-control" value={this.state.value} id="end-year"/>
+					                  <input type="text" className="form-control" value="test" id="end-year"/>
 					              </div>
 					              <button type="submit" className="btn btn-default" id="run-search"><i className="fa fa-search"></i> Search</button>
 					              <button type="button" className="btn btn-default" id="clear-all"><i className="fa fa-trash"></i> Clear Results</button>
