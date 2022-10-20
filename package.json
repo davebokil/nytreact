@@ -23,7 +23,7 @@
     "axios": "^0.19.0",
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
-    "mongoose": "^4.10.8",
+    "mongoose": "^4.13.21",
     "morgan": "^1.8.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
